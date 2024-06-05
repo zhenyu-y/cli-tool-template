@@ -1,0 +1,58 @@
+repo_name: zhenyuyang0/cli-tool-template
+report_id: f7226b399860bbc59f0a10d0bb2a6640
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-05T05:05:25+00:00'
+requested_by: zhenyuyang0
+provider: github
+branch: main
+detected_tools_count: 4
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/zhenyuyang0/cli-tool-template
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/zhenyuyang0/cli-tool-template
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/zhenyuyang0/cli-tool-template/blob/main/.github/workflows/go.yml
+  detection_source: ".github/workflows/go.yml"
+  last_updated_by: Zhen-Yu Yang
+  last_updated_on: 2024-05-27 02:01:54.000000000 Z
+- name: cobra
+  description: A Commander for modern Go CLI interactions
+  package_url: https://pkg.go.dev/github.com/spf13/cobra
+  version: 1.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zhenyuyang0/cli-tool-template/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Zhen-Yu Yang
+  last_updated_on: 2024-05-27 02:01:54.000000000 Z
